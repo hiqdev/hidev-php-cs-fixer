@@ -1,0 +1,53 @@
+{
+    "name": "hiqdev/hidev-php-cs-fixer",
+    "type": "yii2-extension",
+    "description": "PHP Coding Standards Fixer Plugin for HiPanel",
+    "keywords": [
+        "php-cs-fixer",
+        "hidev",
+        "plugin"
+    ],
+    "homepage": "https://hiqdev.com/hidev-php-cs-fixer",
+    "license": "BSD-3-Clause",
+    "support": {
+        "email": "support@hiqdev.com",
+        "source": "https://github.com/hiqdev/hidev-php-cs-fixer",
+        "issues": "https://github.com/hiqdev/hidev-php-cs-fixer/issues",
+        "wiki": "https://github.com/hiqdev/hidev-php-cs-fixer/wiki",
+        "forum": "https://forum.hiqdev.com/hidev"
+    },
+    "authors": [
+        {
+            "name": "Andrii Vasyliev",
+            "role": "Project lead",
+            "email": "sol@hiqdev.com",
+            "homepage": "https://hipanel.com/"
+        },
+        {
+            "name": "Dmitry Naumenko",
+            "role": "Lead backend developer",
+            "email": "silverfire@hiqdev.com",
+            "homepage": "http://silverfire.me/"
+        },
+        {
+            "name": "Andrey Klochok",
+            "role": "Lead frontend developer",
+            "email": "tafid@hiqdev.com",
+            "homepage": "https://hiqdev.com/"
+        },
+        {
+            "name": "Yuriy Myronchuk",
+            "role": "QA Lead",
+            "email": "bladeroot@hiqdev.com",
+            "homepage": "https://hiqdev.com/"
+        }
+    ],
+    "require": {
+        "hiqdev/hidev": "*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "hidev\\phpcsfixer\\": ""
+        }
+    }
+}

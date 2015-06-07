@@ -1,0 +1,20 @@
+parent:
+    github:         hiqdev/hidev-config
+
+package:
+    name:           hidev-php-cs-fixer
+    namespace:      hidev\phpcsfixer
+    label:          HiDev PhpCSFixer
+    title:          PHP Coding Standards Fixer Plugin for HiPanel
+    type:           yii2-extension
+    features:       yii2, extension
+    license:        BSD-3-Clause
+    forum:          https://forum.hiqdev.com/hidev
+    language:       PHP
+    keywords:       php-cs-fixer, hidev, plugin
+    year:           2015
+
+composer.json:
+    require:
+        hiqdev/hidev:       '*@dev'
+
