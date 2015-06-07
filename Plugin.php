@@ -12,10 +12,10 @@ class Plugin extends \hiqdev\pluginmanager\Plugin
     protected $_items = [
         'goals' => [
             'php-cs-fixer' => [
-                'class' => 'hidev\phpcsfixer\goals\PhpCsFixerGoal',
+                'class' => 'hidev\phpcsfixer\goals\FixerGoal',
             ],
             '.php_cs' => [
-                'class' => 'hidev\phpcsfixer\goals\Php_CsGoal',
+                'class' => 'hidev\phpcsfixer\goals\ConfigGoal',
             ],
         ],
     ];
