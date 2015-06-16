@@ -7,7 +7,7 @@
         "hidev",
         "plugin"
     ],
-    "homepage": "https://hiqdev.com/hidev-php-cs-fixer",
+    "homepage": "https://github.com/hiqdev/hidev-php-cs-fixer",
     "license": "BSD-3-Clause",
     "support": {
         "email": "support@hiqdev.com",
