@@ -40,6 +40,6 @@ class PhpCsFixerGoal extends \hidev\goals\BaseGoal
 
     public function actionFix()
     {
-        exec('php-cs-fixer fix');
+        passthru('php-cs-fixer fix');
     }
 }
