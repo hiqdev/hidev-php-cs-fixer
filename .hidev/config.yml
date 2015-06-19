@@ -5,7 +5,7 @@ package:
     name:           hidev-php-cs-fixer
     namespace:      hidev\phpcsfixer
     label:          HiDev PhpCSFixer
-    title:          PHP Coding Standards Fixer Plugin for HiPanel
+    title:          php-cs-fixer plugin for HiDev
     type:           yii2-extension
     keywords:       php-cs-fixer, hidev, plugin
     year:           2015

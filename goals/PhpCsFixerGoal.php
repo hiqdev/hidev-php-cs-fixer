@@ -3,6 +3,7 @@
 namespace hidev\phpcsfixer\goals;
 
 use hidev\helpers\Helper;
+use Robo\Task\CommandStack;
 
 /**
  * Goal for php-cs-fixer
@@ -22,6 +23,16 @@ class PhpCsFixerGoal extends \hidev\goals\BaseGoal
         }
 
         return 'finder';
+    }
+
+    public function save()
+    {
+        $this->actionFix();
+    }
+
+    public function actionFix()
+    {
+        exec('php-cs-fixer fix');
     }
 
 }

@@ -3,7 +3,7 @@
 namespace hidev\phpcsfixer\goals;
 
 /**
- * Goal for .php_cs (php-cs-fixer config) file
+ * Goal for .php_cs (php-cs-fixer config) file.
  */
 class PhpCsGoal extends \hidev\goals\TemplateGoal
 {
