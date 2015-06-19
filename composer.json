@@ -1,7 +1,7 @@
 {
     "name": "hiqdev/hidev-php-cs-fixer",
     "type": "yii2-extension",
-    "description": "PHP Coding Standards Fixer Plugin for HiPanel",
+    "description": "php-cs-fixer plugin for HiDev",
     "keywords": [
         "php-cs-fixer",
         "hidev",

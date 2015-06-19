@@ -1,12 +1,20 @@
 <?php
 
+/*
+ * php-cs-fixer plugin for HiDev
+ *
+ * @link      https://github.com/hiqdev/hidev-php-cs-fixer
+ * @package   hidev-php-cs-fixer
+ * @license   BSD-3-Clause
+ * @copyright Copyright (c) 2015, HiQDev (https://hiqdev.com/)
+ */
+
 namespace hidev\phpcsfixer\goals;
 
 use hidev\helpers\Helper;
-use Robo\Task\CommandStack;
 
 /**
- * Goal for php-cs-fixer
+ * Goal for php-cs-fixer.
  */
 class PhpCsFixerGoal extends \hidev\goals\BaseGoal
 {
@@ -34,5 +42,4 @@ class PhpCsFixerGoal extends \hidev\goals\BaseGoal
     {
         exec('php-cs-fixer fix');
     }
-
 }
