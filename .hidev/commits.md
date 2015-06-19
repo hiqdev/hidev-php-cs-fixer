@@ -3,10 +3,11 @@ hiqdev/hidev-php-cs-fixer commits history
 
 ## Under development
 
-- first version of php-cs-fixer fix done
+- first version of php-cs-fixer fix
     - 684156f 2015-06-19 used passthru for php-cs-fixer fix (sol@hiqdev.com)
     - 374a3a4 2015-06-19 php-cs-fixed (sol@hiqdev.com)
     - ed27006 2015-06-19 + php-cs-fixer actionFix (sol@hiqdev.com)
+- first version of .php_cs generation
     - 5227593 2015-06-19 + actual goals and views (sol@hiqdev.com)
 - inited
     - c5b7377 2015-06-07 hideved (sol@hiqdev.com)
