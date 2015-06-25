@@ -16,7 +16,7 @@ use hidev\helpers\Helper;
 /**
  * Goal for php-cs-fixer.
  */
-class PhpCsFixerGoal extends \hidev\goals\BaseGoal
+class PhpCsFixerGoal extends \hidev\goals\DefaultGoal
 {
     public function init()
     {
@@ -33,7 +33,7 @@ class PhpCsFixerGoal extends \hidev\goals\BaseGoal
         return 'finder';
     }
 
-    public function save()
+    public function actionMake()
     {
         $this->actionFix();
     }
@@ -41,5 +41,10 @@ class PhpCsFixerGoal extends \hidev\goals\BaseGoal
     public function actionFix()
     {
         passthru('php-cs-fixer fix');
+    }
+
+    public function actionCheck()
+    {
+        passthru('php-cs-fixer fix . --dry-run');
     }
 }
