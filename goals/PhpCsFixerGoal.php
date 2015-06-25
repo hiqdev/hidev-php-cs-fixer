@@ -40,7 +40,7 @@ class PhpCsFixerGoal extends \hidev\goals\DefaultGoal
 
     public function actionFix()
     {
-        passthru('php-cs-fixer fix');
+        passthru('php-cs-fixer fix .');
     }
 
     public function actionCheck()
