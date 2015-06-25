@@ -3,6 +3,7 @@ hiqdev/hidev-php-cs-fixer commits history
 
 ## 0.0.2 Under development
 
+    - dcefef9 2015-06-26 actions renamed (sol@hiqdev.com)
 
 ## 0.0.1 June 19, 2015
 
