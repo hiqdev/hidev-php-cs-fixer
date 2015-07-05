@@ -42,9 +42,6 @@
             "homepage": "https://hiqdev.com/"
         }
     ],
-    "require": {
-        "hiqdev/hidev": "*@dev"
-    },
     "autoload": {
         "psr-4": {
             "hidev\\phpcsfixer\\": ""
