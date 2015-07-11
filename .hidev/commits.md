@@ -4,6 +4,7 @@ hiqdev/hidev-php-cs-fixer commits history
 ## 0.0.2 Under development
 
 - Changed configs: redone parent to plugins
+    - 8a5ed3b 2015-07-11 simplified .hidev/config require to hidev-config-php only (sol@hiqdev.com)
     - d6a60e5 2015-07-11 improved CHANGELOG (sol@hiqdev.com)
     - a4ba053 2015-07-11 redoing parent to plugins (sol@hiqdev.com)
     - 454305a 2015-07-10 - require & require-dev (sol@hiqdev.com)
