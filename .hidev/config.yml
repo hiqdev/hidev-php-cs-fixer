@@ -1,6 +1,3 @@
-parent:
-    github:         hiqdev/hidev-config
-
 package:
     name:           hidev-php-cs-fixer
     namespace:      hidev\phpcsfixer
@@ -10,7 +7,8 @@ package:
     keywords:       php-cs-fixer, hidev, plugin
     year:           2015
 
-composer.json:
-    require:
-        hiqdev/hidev:       '*@dev'
-
+require:
+    hiqdev/hidev-config:        "*@dev"
+    hiqdev/hidev-config-php:    "*@dev"
+    hiqdev/hidev-php-cs-fixer:  "*@dev"
+    hiqdev/hidev-codeception:   "*@dev"
