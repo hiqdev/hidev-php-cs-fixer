@@ -13,3 +13,6 @@ hiqdev/hidev-php-cs-fixer changelog
 
 ## Development started June 7, 2015
 
+
+## 0.0.2 2015-07-11
+
