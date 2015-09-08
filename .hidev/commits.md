@@ -3,6 +3,8 @@ hiqdev/hidev-php-cs-fixer commits history
 
 ## 0.0.3 Under development
 
+- Fixed requires at .hidev/config.yml
+    - b63f1ec 2015-09-08 fixed requires at hidev config (sol@hiqdev.com)
 
 ## 0.0.2 2015-07-11
 

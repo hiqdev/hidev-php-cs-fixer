@@ -1,7 +1,11 @@
 hiqdev/hidev-php-cs-fixer changelog
 -----------------------------------
 
-## 0.0.2 Under development
+## 0.0.3 Under development
+
+- Fixed requires at .hidev/config.yml
+
+## 0.0.2 2015-07-11
 
 - Changed configs: redone parent to plugins
 
@@ -12,7 +16,4 @@ hiqdev/hidev-php-cs-fixer changelog
 - Inited
 
 ## Development started June 7, 2015
-
-
-## 0.0.2 2015-07-11
 
