@@ -1,7 +1,10 @@
 hiqdev/hidev-php-cs-fixer changelog
 -----------------------------------
 
-## 0.0.3 Under development
+## 0.0.4 Under development
+
+
+## 0.0.3 2015-09-08
 
 - Fixed requires at .hidev/config.yml
 
