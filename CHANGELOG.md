@@ -1,8 +1,12 @@
 hiqdev/hidev-php-cs-fixer changelog
 -----------------------------------
 
-## 0.0.4 Under development
+## 0.0.5 Under development
 
+
+## 0.0.4 2015-11-09
+
+- Added php-cs-fixer caching and VCS ignoring for .php_cs.cache
 
 ## 0.0.3 2015-09-08
 
