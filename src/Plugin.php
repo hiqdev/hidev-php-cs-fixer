@@ -21,5 +21,8 @@ class Plugin extends \hiqdev\pluginmanager\Plugin
         'views' => [
             '@hidev/phpcsfixer/views',
         ],
+        'vcsignore' => [
+            '.php_cs.cache' => 'php-cs-fixer cache',
+        ],
     ];
 }

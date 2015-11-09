@@ -7,6 +7,7 @@ EOF;
 Symfony\CS\Fixer\Contrib\HeaderCommentFixer::setHeader($header);
 
 return Symfony\CS\Config\Config::create()
+    ->setUsingCache(true)
     ->level(Symfony\CS\FixerInterface::{{ this.goal.fixer.level | upper }}_LEVEL)
     ->fixers([
 {% for k,v in this.goal.fixer.fixers %}
