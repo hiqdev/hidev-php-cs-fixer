@@ -3,6 +3,7 @@ hiqdev/hidev-php-cs-fixer commits history
 
 ## 0.0.4 Under development
 
+    - 2170f4f 2015-11-09 enabled caching, added vcsignoring for .php_cs.cache (sol@hiqdev.com)
 
 ## 0.0.3 2015-09-08
 

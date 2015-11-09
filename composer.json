@@ -1,7 +1,7 @@
 {
     "name": "hiqdev/hidev-php-cs-fixer",
     "type": "yii2-extension",
-    "description": "php-cs-fixer plugin for HiDev",
+    "description": "PHP-CS-Fixer plugin for HiDev",
     "keywords": [
         "php-cs-fixer",
         "hidev",
@@ -18,28 +18,36 @@
     },
     "authors": [
         {
+            "nick": "hiqsol",
             "name": "Andrii Vasyliev",
             "role": "Project lead",
             "email": "sol@hiqdev.com",
-            "homepage": "https://hipanel.com/"
+            "github": "https://github.com/hiqsol",
+            "homepage": "http://hipanel.com/"
         },
         {
+            "nick": "SilverFire",
             "name": "Dmitry Naumenko",
             "role": "Lead backend developer",
             "email": "silverfire@hiqdev.com",
+            "github": "https://github.com/SilverFire",
             "homepage": "http://silverfire.me/"
         },
         {
+            "nick": "tafid",
             "name": "Andrey Klochok",
             "role": "Lead frontend developer",
             "email": "tafid@hiqdev.com",
-            "homepage": "https://hiqdev.com/"
+            "github": "https://github.com/tafid",
+            "homepage": "http://hiqdev.com/"
         },
         {
+            "nick": "BladeRoot",
             "name": "Yuriy Myronchuk",
             "role": "QA Lead",
             "email": "bladeroot@hiqdev.com",
-            "homepage": "https://hiqdev.com/"
+            "github": "https://github.com/BladeRoot",
+            "homepage": "http://hiqdev.com/"
         }
     ],
     "autoload": {

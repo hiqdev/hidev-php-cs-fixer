@@ -7,6 +7,10 @@ composer.lock
 # hidev composer.json
 .hidev/composer.json
 
+# hidev internals
+.hidev/composer.lock
+.hidev/vendor
+
 # IDE & OS files
 .*.swp
 .idea

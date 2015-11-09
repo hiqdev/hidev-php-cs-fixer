@@ -1,10 +1,13 @@
-php-cs-fixer plugin for HiDev
------------------------------
+HiDev PHP-CS-Fixer
+==================
 
-php-cs-fixer plugin for HiDev
+**PHP-CS-Fixer plugin for HiDev**
 
-[![Latest Stable Version](https://poser.pugx.org/hiqdev/hidev-php-cs-fixer/v/stable.png)](https://packagist.org/packages/hiqdev/hidev-php-cs-fixer)
-[![Total Downloads](https://poser.pugx.org/hiqdev/hidev-php-cs-fixer/downloads.png)](https://packagist.org/packages/hiqdev/hidev-php-cs-fixer)
+[![Latest Stable Version](https://poser.pugx.org/hiqdev/hidev-php-cs-fixer/v/stable)](//packagist.org/packages/hiqdev/hidev-php-cs-fixer)
+[![Total Downloads](https://poser.pugx.org/hiqdev/hidev-php-cs-fixer/downloads)](//packagist.org/packages/hiqdev/hidev-php-cs-fixer)
+
+[HiDev](https://github.com/hiqdev/hidev) is task runner, code generator and build tool for easier continuos integration.
+This plugin enables [PHP-CS-Fixer] support for HiDev.
 
 ## Installation
 
@@ -24,8 +27,9 @@ or add
 
 to the require section of your composer.json.
 
-## Licence
+## License
 
-[BSD-3-Clause](http://choosealicense.com/licenses/bsd-3-clause)
+This project is released under the terms of the BSD-3-Clause [license](https://github.com/hiqdev/hidev-php-cs-fixer/blob/master/LICENSE).
+Read more [here](http://choosealicense.com/licenses/bsd-3-clause).
 
-Copyright © 2015, HiQDev (https://hiqdev.com/)
+Copyright © 2015, HiQDev (http://hiqdev.com/)
