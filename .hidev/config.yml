@@ -8,7 +8,7 @@ package:
     keywords:       php-cs-fixer, hidev, plugin
     year:           2015
     description:    |
-        [HiDev](https://github.com/hiqdev/hidev) is task runner, code generator and build tool for easier continuos integration.
+        [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
         This plugin enables [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) support for HiDev.
 
 require:
