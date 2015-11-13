@@ -2,7 +2,6 @@ package:
     name:           hidev-php-cs-fixer
     namespace:      hidev\phpcsfixer
     headline:       HiDev PHP-CS-Fixer
-    label:          HiDev PhpCSFixer
     title:          PHP-CS-Fixer plugin for HiDev
     type:           yii2-extension
     keywords:       php-cs-fixer, hidev, plugin
