@@ -11,5 +11,5 @@ package:
         This plugin enables [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) support for HiDev.
 
 require:
-    hiqdev/hidev-config:        "*"
-    hiqdev/hidev-config-php:    "*"
+    hiqdev/hidev-hiqdev: "*"
+    hiqdev/hidev-php:    "*"
