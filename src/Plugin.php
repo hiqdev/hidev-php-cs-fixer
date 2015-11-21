@@ -15,8 +15,13 @@ class Plugin extends \hiqdev\pluginmanager\Plugin
 {
     protected $_items = [
         'goals' => [
-            'php-cs-fixer' => 'hidev\phpcsfixer\goals\PhpCsFixerGoal',
-            '.php_cs'      => 'hidev\phpcsfixer\goals\PhpCsGoal',
+            'php-cs-fixer'  => 'hidev\phpcsfixer\goals\PhpCsFixerGoal',
+            '.php_cs'       => 'hidev\phpcsfixer\goals\PhpCsGoal',
+            'install'       => [
+                'requires' => [
+                    'fabpot/php-cs-fixer' => '*',
+                ],
+            ],
         ],
         'views' => [
             '@hidev/phpcsfixer/views',
