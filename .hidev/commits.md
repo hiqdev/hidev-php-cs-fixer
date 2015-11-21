@@ -3,6 +3,7 @@ hiqdev/hidev-php-cs-fixer commits history
 
 ## Under development
 
+    - 647b1ea 2015-11-21 + install requires (sol@hiqdev.com)
 
 ## 0.1.0 2015-11-09
 
