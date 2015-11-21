@@ -4,6 +4,7 @@ hiqdev/hidev-php-cs-fixer commits history
 ## Under development
 
 - Added Travis CI
+    - 9ef53f5 2015-11-21 doing travis (sol@hiqdev.com)
     - 3fc17b7 2015-11-21 doing travis (sol@hiqdev.com)
     - 647b1ea 2015-11-21 + install requires (sol@hiqdev.com)
 
