@@ -9,6 +9,10 @@ HiDev PHP-CS-Fixer
 [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
 This plugin enables [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) support for HiDev.
 
+Provides:
+- writing .php_cs config file
+- running php-cs-fixer from proper path
+
 ## Installation
 
 The preferred way to install this yii2-extension is through [composer](http://getcomposer.org/download/).
