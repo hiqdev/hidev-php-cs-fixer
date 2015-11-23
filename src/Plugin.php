@@ -21,6 +21,9 @@ class Plugin extends \hiqdev\pluginmanager\Plugin
                 'require' => [
                     'fabpot/php-cs-fixer' => '*',
                 ],
+                'bin' => [
+                    'php-cs-fixer' => 'fabpot/php-cs-fixer',
+                ],
             ],
         ],
         'views' => [

@@ -23,28 +23,19 @@ class PhpCsFixerGoal extends \hidev\goals\DefaultGoal
         $this->setDeps('.php_cs');
     }
 
-    public function getFinder1()
-    {
-        $res = [];
-        foreach ($this->rawItem('finder') as $k => $vs) {
-            $res[$k] = Helper::asplit($vs);
-        }
-
-        return 'finder';
-    }
-
     public function actionMake()
     {
-        $this->actionFix();
+        return $this->actionFix();
     }
 
     public function actionFix()
     {
-        passthru('php-cs-fixer fix .');
+        return $this->passthru('php-cs-fixer', 'fix .');
     }
 
     public function actionCheck()
     {
-        passthru('php-cs-fixer fix . --dry-run');
+        return $this->passthru('php-cs-fixer', 'fix . --dry-run');
     }
+
 }
