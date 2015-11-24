@@ -11,8 +11,6 @@
 
 namespace hidev\phpcsfixer\goals;
 
-use hidev\helpers\Helper;
-
 /**
  * Goal for php-cs-fixer.
  */
@@ -37,5 +35,4 @@ class PhpCsFixerGoal extends \hidev\goals\DefaultGoal
     {
         return $this->passthru('php-cs-fixer', 'fix . --dry-run');
     }
-
 }
