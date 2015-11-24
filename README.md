@@ -5,6 +5,7 @@ HiDev PHP-CS-Fixer
 
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/hidev-php-cs-fixer/v/stable)](//packagist.org/packages/hiqdev/hidev-php-cs-fixer)
 [![Total Downloads](https://poser.pugx.org/hiqdev/hidev-php-cs-fixer/downloads)](//packagist.org/packages/hiqdev/hidev-php-cs-fixer)
+[![Build Status](https://img.shields.io/travis/hiqdev/hidev-php-cs-fixer.svg)](http://travis-ci.org/hiqdev/hidev-php-cs-fixer)
 
 [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
 This plugin enables [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) support for HiDev.
