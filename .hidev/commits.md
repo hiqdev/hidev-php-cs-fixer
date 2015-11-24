@@ -3,6 +3,9 @@ hiqdev/hidev-php-cs-fixer commits history
 
 ## Under development
 
+
+## 0.1.1 2015-11-24
+
 - Added tests and Travis CI
     - ca81fed 2015-11-24 php-cs-fixed (sol@hiqdev.com)
     - 4d0f3c1 2015-11-23 added exit code propagation and used smart `passthru` (sol@hiqdev.com)
