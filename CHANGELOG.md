@@ -3,6 +3,7 @@ hiqdev/hidev-php-cs-fixer changelog
 
 ## Under development
 
+- Fixed build
 
 ## 0.1.1 2015-11-24
 
