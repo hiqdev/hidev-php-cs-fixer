@@ -3,7 +3,11 @@ hiqdev/hidev-php-cs-fixer commits history
 
 ## Under development
 
+
+## 0.2.0 2015-12-23
+
 - Fixed build
+    - 3325661 2015-12-23 + Travis `after_script` to upload coverage to Scrutinizer (sol@hiqdev.com)
     - c824e96 2015-12-23 fixed build (sol@hiqdev.com)
 
 ## 0.1.1 2015-11-24
