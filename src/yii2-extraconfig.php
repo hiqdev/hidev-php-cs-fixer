@@ -15,7 +15,7 @@ return [
             'php-cs-fixer' => [
                 'class' => 'hidev\phpcsfixer\goals\PhpCsFixerGoal',
             ],
-            '.php_cs' [
+            '.php_cs' => [
                 'class' => 'hidev\phpcsfixer\goals\PhpCsGoal',
             ],
             'binaries' => [
