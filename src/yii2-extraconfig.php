@@ -11,21 +11,25 @@
 
 return [
     'components' => [
-        'goals' => [
-            'php-cs-fixer'  => 'hidev\phpcsfixer\goals\PhpCsFixerGoal',
-            '.php_cs'       => 'hidev\phpcsfixer\goals\PhpCsGoal',
-        ],
-        'binaries' => [
+        'config' => [
             'php-cs-fixer' => [
-                'package' => 'fabpot/php-cs-fixer',
-                'version' => '*',
+                'class' => 'hidev\phpcsfixer\goals\PhpCsFixerGoal',
             ],
-        ],
-        'views' => [
-            '@hidev/phpcsfixer/views',
-        ],
-        'vcsignores' => [
-            '.php_cs.cache' => 'php-cs-fixer cache',
+            '.php_cs' [
+                'class' => 'hidev\phpcsfixer\goals\PhpCsGoal',
+            ],
+            'binaries' => [
+                'php-cs-fixer' => [
+                    'package' => 'fabpot/php-cs-fixer',
+                    'version' => '*',
+                ],
+            ],
+            'views' => [
+                '@hidev/phpcsfixer/views',
+            ],
+            'vcsignores' => [
+                '.php_cs.cache' => 'php-cs-fixer cache',
+            ],
         ],
     ],
 ];
