@@ -9,28 +9,23 @@
  * @copyright Copyright (c) 2015, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\phpcsfixer;
-
-class Plugin extends \hiqdev\pluginmanager\Plugin
-{
-    protected $_items = [
+return [
+    'components' => [
         'goals' => [
             'php-cs-fixer'  => 'hidev\phpcsfixer\goals\PhpCsFixerGoal',
             '.php_cs'       => 'hidev\phpcsfixer\goals\PhpCsGoal',
         ],
-        'components' => [
-            'binaries' => [
-                'php-cs-fixer' => [
-                    'package' => 'fabpot/php-cs-fixer',
-                    'version' => '*',
-                ],
+        'binaries' => [
+            'php-cs-fixer' => [
+                'package' => 'fabpot/php-cs-fixer',
+                'version' => '*',
             ],
         ],
         'views' => [
             '@hidev/phpcsfixer/views',
         ],
-        'vcsignore' => [
+        'vcsignores' => [
             '.php_cs.cache' => 'php-cs-fixer cache',
         ],
-    ];
-}
+    ],
+];
