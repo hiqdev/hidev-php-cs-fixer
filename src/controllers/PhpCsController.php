@@ -9,12 +9,12 @@
  * @copyright Copyright (c) 2015, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\phpcsfixer\goals;
+namespace hidev\phpcsfixer\controllers;
 
 /**
  * Goal for .php_cs (php-cs-fixer config) file.
  */
-class PhpCsGoal extends \hidev\goals\TemplateGoal
+class PhpCsController extends \hidev\controllers\TemplateController
 {
     public function getTemplate()
     {
@@ -23,6 +23,6 @@ class PhpCsGoal extends \hidev\goals\TemplateGoal
 
     public function getFixer()
     {
-        return $this->getConfig()->get('php-cs-fixer');
+        return $this->takeGoal('php-cs-fixer');
     }
 }

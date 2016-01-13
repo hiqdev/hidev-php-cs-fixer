@@ -9,17 +9,14 @@
  * @copyright Copyright (c) 2015, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\phpcsfixer\goals;
+namespace hidev\phpcsfixer\controllers;
 
 /**
  * Goal for php-cs-fixer.
  */
-class PhpCsFixerGoal extends \hidev\goals\DefaultGoal
+class PhpCsFixerController extends \hidev\controllers\FileController
 {
-    public function init()
-    {
-        $this->setDeps('.php_cs');
-    }
+    protected $_before = ['.php_cs'];
 
     public function actionMake()
     {
