@@ -13,10 +13,10 @@ return [
     'components' => [
         'config' => [
             'php-cs-fixer' => [
-                'class' => 'hidev\phpcsfixer\goals\PhpCsFixerGoal',
+                'class' => 'hidev\phpcsfixer\controllers\PhpCsFixerController',
             ],
             '.php_cs' => [
-                'class' => 'hidev\phpcsfixer\goals\PhpCsGoal',
+                'class' => 'hidev\phpcsfixer\controllers\PhpCsController',
             ],
             'binaries' => [
                 'php-cs-fixer' => [
@@ -27,7 +27,7 @@ return [
             'views' => [
                 '@hidev/phpcsfixer/views',
             ],
-            'vcsignores' => [
+            'vcsignore' => [
                 '.php_cs.cache' => 'php-cs-fixer cache',
             ],
         ],
