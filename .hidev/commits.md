@@ -3,6 +3,16 @@ hiqdev/hidev-php-cs-fixer commits history
 
 ## Under development
 
+- Added php-cs-fixer download link
+    - f69fa8e 2016-01-15 + php-cs-fixer download link (sol@hiqdev.com)
+- Changed goals -> controllers
+    - f64edba 2016-01-13 renamed goals -> controllers (sol@hiqdev.com)
+    - 1008aef 2016-01-13 renamed hidev-travis <- hidev-travis-ci (sol@hiqdev.com)
+    - e62bbe7 2016-01-13 renamed goals -> controllers (sol@hiqdev.com)
+- Changed PluginManager -> yii2-extraconfig plugin
+    - 543a4bd 2016-01-06 fixed typo (sol@hiqdev.com)
+    - ea74153 2016-01-06 changed config structure (sol@hiqdev.com)
+    - 402fe42 2016-01-06 redoing with yii2-extraconfig (sol@hiqdev.com)
 
 ## 0.2.0 2015-12-23
 

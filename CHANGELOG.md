@@ -3,6 +3,9 @@ hiqdev/hidev-php-cs-fixer changelog
 
 ## Under development
 
+- Added php-cs-fixer download link
+- Changed goals -> controllers
+- Changed PluginManager -> yii2-extraconfig plugin
 
 ## 0.2.0 2015-12-23
 
