@@ -20,8 +20,9 @@ return [
             ],
             'binaries' => [
                 'php-cs-fixer' => [
-                    'package' => 'fabpot/php-cs-fixer',
-                    'version' => '*',
+                    'package'  => 'fabpot/php-cs-fixer',
+                    'version'  => '*',
+                    'download' => 'http://get.sensiolabs.org/php-cs-fixer.phar',
                 ],
             ],
             'views' => [
