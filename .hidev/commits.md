@@ -1,7 +1,7 @@
 hiqdev/hidev-php-cs-fixer commits history
 -----------------------------------------
 
-## Under development
+## 0.3.0 2016-01-15
 
 - Fixed tests
     - aba4a63 2016-01-15 fixed tests (sol@hiqdev.com)
