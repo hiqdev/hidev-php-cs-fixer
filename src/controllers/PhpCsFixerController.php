@@ -20,16 +20,21 @@ class PhpCsFixerController extends \hidev\controllers\FileController
 
     public function actionMake()
     {
-        return $this->actionFix();
+        return $this->runAction('fix');
     }
 
     public function actionFix()
     {
-        return $this->passthru('php-cs-fixer', 'fix .');
+        $this->runAction('stop-fix');
+    }
+
+    public function actionStopFix()
+    {
+        return $this->passthru('php-cs-fixer', ['fix', '.']);
     }
 
     public function actionCheck()
     {
-        return $this->passthru('php-cs-fixer', 'fix . --dry-run');
+        return $this->passthru('php-cs-fixer', ['fix', '.', '--dry-run']);
     }
 }
