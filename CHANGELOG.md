@@ -1,8 +1,9 @@
 hiqdev/hidev-php-cs-fixer changelog
 -----------------------------------
 
-## Under development
+## 0.3.1 2016-01-19
 
+- Changed `php-cs-fixer` goal to not stop, added `php-cs-fixer/stop-fix`
 
 ## 0.3.0 2016-01-15
 
@@ -21,7 +22,7 @@ hiqdev/hidev-php-cs-fixer changelog
 
 ## 0.1.0 2015-11-09
 
-- Added php-cs-fixer caching and VCS ignoring for .php_cs.cache
+- Added php-cs-fixer caching and VCS ignoring for `.php_cs.cache`
 
 ## 0.0.3 2015-09-08
 
@@ -34,7 +35,7 @@ hiqdev/hidev-php-cs-fixer changelog
 ## 0.0.1 June 19, 2015
 
 - Added first version of php-cs-fixer fix
-- Added first version of .php_cs generation
+- Added first version of `.php_cs` generation
 - Inited
 
 ## Development started June 7, 2015
