@@ -5,13 +5,13 @@
 
 # IDE & OS files
 .*.swp
-.idea
-nbproject
+.DS_Store
 .buildpath
+.idea
 .project
 .settings
 Thumbs.db
-.DS_Store
+nbproject
 
 # vendor dirs
 vendor
@@ -28,7 +28,3 @@ coverage.clover
 # PHARs
 php-cs-fixer.phar
 phpunit.phar
-composer.phar
-
-# Codeception generated files
-tests/_support/_generated

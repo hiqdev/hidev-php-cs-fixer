@@ -1,6 +1,10 @@
 hiqdev/hidev-php-cs-fixer commits history
 -----------------------------------------
 
+## Under development
+
+    - eb89196 2016-01-19 changed `php-cs-fixer` to not stop, added `php-cs-fixer/stop-fix` (sol@hiqdev.com)
+
 ## 0.3.0 2016-01-15
 
 - Fixed tests
