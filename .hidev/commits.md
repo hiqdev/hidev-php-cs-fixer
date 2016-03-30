@@ -1,7 +1,7 @@
 hiqdev/hidev-php-cs-fixer commits history
 -----------------------------------------
 
-## Under development
+## 0.3.2 2016-03-30
 
 - Changed `extension-config` <- `yii2-extraconfig`
     - 7f66703 2016-03-30 rehideved (sol@hiqdev.com)
