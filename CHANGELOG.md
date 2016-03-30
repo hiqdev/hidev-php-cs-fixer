@@ -3,6 +3,7 @@ hiqdev/hidev-php-cs-fixer changelog
 
 ## Under development
 
+- Changed `extension-config` <- `yii2-extraconfig`
 
 ## 0.3.1 2016-01-19
 
