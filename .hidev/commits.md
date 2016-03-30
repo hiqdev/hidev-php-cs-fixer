@@ -1,6 +1,10 @@
 hiqdev/hidev-php-cs-fixer commits history
 -----------------------------------------
 
+## Under development
+
+    - 5436fe1 2016-03-30 redoing to `extension-config` <- `yii2-extraconfig` (sol@hiqdev.com)
+
 ## 0.3.1 2016-01-19
 
 - Changed `php-cs-fixer` goal to not stop, added `php-cs-fixer/stop-fix`

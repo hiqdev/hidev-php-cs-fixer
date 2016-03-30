@@ -6,8 +6,8 @@ HiDev PHP-CS-Fixer
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/hidev-php-cs-fixer/v/stable)](https://packagist.org/packages/hiqdev/hidev-php-cs-fixer)
 [![Total Downloads](https://poser.pugx.org/hiqdev/hidev-php-cs-fixer/downloads)](https://packagist.org/packages/hiqdev/hidev-php-cs-fixer)
 [![Build Status](https://img.shields.io/travis/hiqdev/hidev-php-cs-fixer.svg)](https://travis-ci.org/hiqdev/hidev-php-cs-fixer)
-[![Code Coverage](https://scrutinizer-ci.com/g/hiqdev/hidev-php-cs-fixer/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/hiqdev/hidev-php-cs-fixer/?branch=master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/hiqdev/hidev-php-cs-fixer/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/hiqdev/hidev-php-cs-fixer/?branch=master)
+[![Scrutinizer Code Coverage](https://img.shields.io/scrutinizer/coverage/g/hiqdev/hidev-php-cs-fixer.svg)](https://scrutinizer-ci.com/g/hiqdev/hidev-php-cs-fixer/)
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/hidev-php-cs-fixer.svg)](https://scrutinizer-ci.com/g/hiqdev/hidev-php-cs-fixer/)
 
 [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
 

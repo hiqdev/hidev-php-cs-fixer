@@ -1,6 +1,9 @@
 hiqdev/hidev-php-cs-fixer changelog
 -----------------------------------
 
+## Under development
+
+
 ## 0.3.1 2016-01-19
 
 - Changed `php-cs-fixer` goal to not stop, added `php-cs-fixer/stop-fix`
