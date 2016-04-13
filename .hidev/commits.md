@@ -1,6 +1,13 @@
 hiqdev/hidev-php-cs-fixer commits history
 -----------------------------------------
 
+## 0.3.3 2016-04-13
+
+- Fixed build with asset-plugin
+    - 3d4fe01 2016-04-13 fixed build with asset-plugin (sol@hiqdev.com)
+- Changed to `hidev-config` <- `extension-config`
+    - 313e383 2016-04-13 redone to `hidev-config` <- `extension-config` (sol@hiqdev.com)
+
 ## 0.3.2 2016-03-30
 
 - Changed `extension-config` <- `yii2-extraconfig`
