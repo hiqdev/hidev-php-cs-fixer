@@ -1,6 +1,13 @@
 hiqdev/hidev-php-cs-fixer commits history
 -----------------------------------------
 
+## 0.4.0 2016-05-21
+
+- Changed: redone to `composer-config-plugin`
+    - 4390815 2016-05-21 fixed typo (sol@hiqdev.com)
+    - cf89b25 2016-05-21 redoing to composer-config-plugin (sol@hiqdev.com)
+    - ecbd88c 2016-05-21 redoing to composer-config-plugin (sol@hiqdev.com)
+
 ## 0.3.4 2016-04-15
 
 - Fixed `hiqdev/composer-extension-plugin` version constraint
