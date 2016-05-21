@@ -62,7 +62,7 @@
         }
     },
     "extra": {
-        "extension-plugin": {
+        "config-plugin": {
             "hidev": "src/config/hidev.php"
         }
     },
