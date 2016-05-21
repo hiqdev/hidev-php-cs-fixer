@@ -1,11 +1,10 @@
 package:
     type:           yii2-extension
     name:           hidev-php-cs-fixer
-    namespace:      hidev\phpcsfixer
-    headline:       HiDev PHP-CS-Fixer
     title:          PHP-CS-Fixer plugin for HiDev
+    headline:       HiDev PHP-CS-Fixer
     keywords:       php-cs-fixer, hidev, plugin
-    year:           2015
+    namespace:      hidev\phpcsfixer
     description:    |
         [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
 
@@ -14,14 +13,3 @@ package:
         Provides:
         - writing `.php_cs` config file
         - running php-cs-fixer from proper path
-
-require:
-    hiqdev/hidev-php:           "*@dev"
-    hiqdev/hidev-readme:        "*@dev"
-    hiqdev/hidev-travis:        "*@dev"
-    hiqdev/hidev-vendor:        "*@dev"
-    hiqdev/hidev-license:       "*@dev"
-    hiqdev/hidev-phpunit:       "*@dev"
-    hiqdev/hidev-composer:      "*@dev"
-    hiqdev/hidev-scrutinizer:   "*@dev"
-    hiqdev/hidev-php-cs-fixer:  "*@dev"
