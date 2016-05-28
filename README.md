@@ -18,6 +18,14 @@ Provides:
 - writing `.php_cs` config file
 - running php-cs-fixer from proper path
 
+### Renamed fixers v1 -> v2
+
+- multiline_spaces_before_semicolon -> no_multiline_whitespace_before_semicolons
+- newline_after_open_tag -> ?
+- blankline_after_open_tag -> blank_line_after_opening_tag
+- ordered_use -> ordered_imports
+- strict -> strict_comparison
+
 ## Installation
 
 The preferred way to install this yii2-extension is through [composer](http://getcomposer.org/download/).

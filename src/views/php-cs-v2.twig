@@ -1,0 +1,33 @@
+<?php
+
+$header = <<<EOF
+{{ include(template_from_string(this.goal.fixer.header)) -}}
+EOF;
+
+return PhpCsFixer\Config::create()
+    ->setUsingCache(true)
+    ->setRiskyAllowed(true)
+    ->setRules(array(
+        '@{{ this.goal.fixer.level | upper }}' => true,
+{% for k,comment in this.goal.fixer.fixers %}
+    {%- set minus = k[:1] == '-' %}
+    {%- set name = minus ? k[1:] : k %}
+    {%- set quoted = "'#{name}'" %}
+    {%- if name == 'header_comment' %}
+        {%- set value = "['header' => $header]" %}
+    {%- else %}
+        {%- set value = minus ? 'false' : 'true' %}
+    {%- endif %}
+        {{ "%-44s => %5s, /// %s" | format(quoted, value, comment) | raw }}
+{% endfor %}
+    ))
+    ->finder(
+        PhpCsFixer\Finder::create()
+            ->in(__DIR__)
+{% for k,vs in this.goal.fixer.finder %}
+    {% for v in vs %}
+        {{ "->%s('%s')" | format(k,v) | raw }}
+    {% endfor %}
+{% endfor -%}
+    )
+;

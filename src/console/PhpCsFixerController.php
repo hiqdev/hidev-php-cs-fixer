@@ -9,14 +9,40 @@
  * @copyright Copyright (c) 2015-2016, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\phpcsfixer\controllers;
+namespace hidev\phpcsfixer\console;
 
 /**
- * Goal for php-cs-fixer.
+ * Goal to run php-cs-fixer.
  */
 class PhpCsFixerController extends \hidev\controllers\FileController
 {
     protected $_before = ['.php_cs'];
+
+    protected $_version;
+
+    public function setVersion($value)
+    {
+        $this->_version = $value;
+    }
+
+    public function getVersion()
+    {
+        if ($this->_version === null) {
+            $this->_version = $this->determineVersion();
+        }
+
+        return $this->_version;
+    }
+
+    public function determineVersion()
+    {
+        $str = reset($this->exec('php-cs-fixer', ['--version']));
+        if (preg_match('/ version (\S+) /', $str, $m)) {
+            return $m[1];
+        }
+
+        return '1.x';
+    }
 
     public function actionMake()
     {
