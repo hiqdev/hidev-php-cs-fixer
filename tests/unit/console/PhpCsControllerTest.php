@@ -9,9 +9,9 @@
  * @copyright Copyright (c) 2015-2016, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\phpcsfixer\tests\unit\controllers;
+namespace hidev\phpcsfixer\tests\unit\console;
 
-use hidev\phpcsfixer\controllers\PhpCsController;
+use hidev\phpcsfixer\console\PhpCsController;
 
 /**
  * Tests for PhpCsController.

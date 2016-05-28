@@ -24,7 +24,8 @@ return PhpCsFixer\Config::create()
         'unalign_equals'                             => false, /// Unalign equals symbols in consecutive lines
         'phpdoc_no_empty_return'                     => false, /// @return void and @return null annotations should be omitted from phpdocs
         'empty_return'                               => false, /// A return statement wishing to return nothing should be simply "return"
-        'return'                                     => false, /// An empty line feed should precede a return statement
+        'blank_line_before_return'                   => false, /// n empty line feed should precede a return statement
+        'phpdoc_align'                               => false, /// All items of the @param, @throws, @return, @var, and @type phpdoc tags must be aligned vertically
         'phpdoc_params'                              => false, /// All items of the @param, @throws, @return, @var, and @type phpdoc tags must be aligned vertically
         'phpdoc_scalar'                              => false, /// Scalar types should always be written in the same form. "int", not "integer"; "bool", not "boolean"
         'phpdoc_separation'                          => false, /// Annotations of a different type are separated by a single blank line
