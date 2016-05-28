@@ -44,6 +44,13 @@ class PhpCsFixerController extends \hidev\controllers\FileController
         return '1.x';
     }
 
+    public function getCasedLevel()
+    {
+        $level = strtolower($this->level);
+
+        return $level === 'symfony' ? 'Symfony' : strtoupper($level);
+    }
+
     public function actionMake()
     {
         return $this->runAction('fix');

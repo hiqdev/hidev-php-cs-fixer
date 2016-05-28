@@ -8,7 +8,7 @@ return PhpCsFixer\Config::create()
     ->setUsingCache(true)
     ->setRiskyAllowed(true)
     ->setRules(array(
-        '@{{ this.goal.fixer.level | upper }}' => true,
+        '@{{ this.goal.fixer.casedLevel }}' => true,
 {% for k,comment in this.goal.fixer.fixers %}
     {%- set minus = k[:1] == '-' %}
     {%- set name = minus ? k[1:] : k %}
@@ -28,6 +28,6 @@ return PhpCsFixer\Config::create()
     {% for v in vs %}
         {{ "->%s('%s')" | format(k,v) | raw }}
     {% endfor %}
-{% endfor -%}
+{% endfor %}
     )
 ;
