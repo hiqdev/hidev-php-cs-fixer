@@ -1,6 +1,14 @@
 hiqdev/hidev-php-cs-fixer commits history
 -----------------------------------------
 
+## 0.4.1 2016-05-28
+
+- Added php-cs-fixer v2 support
+    - 7b168e1 2016-05-28 csfixed (sol@hiqdev.com)
+    - c803ae9 2016-05-28 removed getPhpCsFixer in favour of getFixer (sol@hiqdev.com)
+    - 15fcc4c 2016-05-28 added casedLevel (sol@hiqdev.com)
+    - d9f81e1 2016-05-28 added php-cs-fixer v2 support (sol@hiqdev.com)
+
 ## 0.4.0 2016-05-21
 
 - Changed: redone to `composer-config-plugin`

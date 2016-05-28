@@ -1,6 +1,10 @@
 hiqdev/hidev-php-cs-fixer changelog
 -----------------------------------
 
+## 0.4.1 2016-05-28
+
+- Added php-cs-fixer v2 support
+
 ## 0.4.0 2016-05-21
 
 - Changed: redone to `composer-config-plugin`
