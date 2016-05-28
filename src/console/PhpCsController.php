@@ -16,14 +16,9 @@ namespace hidev\phpcsfixer\console;
  */
 class PhpCsController extends \hidev\controllers\TemplateController
 {
-    public function getPhpCsFixer()
-    {
-        return $this->takeGoal('php-cs-fixer');
-    }
-
     public function getTemplate()
     {
-        $version = $this->getPhpCsFixer()->getVersion();
+        $version = $this->getFixer()->getVersion();
         $v = substr($version, 0, 1);
 
         return "php-cs-v$v.twig";
