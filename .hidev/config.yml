@@ -21,3 +21,4 @@ package:
         - blankline_after_open_tag -> blank_line_after_opening_tag
         - ordered_use -> ordered_imports
         - strict -> strict_comparison
+        - empty_return -> simplified_null_return
