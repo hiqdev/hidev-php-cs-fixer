@@ -9,19 +9,17 @@ return PhpCsFixer\Config::create()
     ->setRiskyAllowed(true)
     ->setRules(array(
         '@{{ this.goal.fixer.casedLevel }}' => true,
-{% for k,comment in this.goal.fixer.fixers %}
-    {%- set minus = k[:1] == '-' %}
-    {%- set name = minus ? k[1:] : k %}
+{% for name,value in this.goal.fixer.fixers %}
     {%- set quoted = "'#{name}'" %}
-    {%- if name == 'header_comment' %}
-        {%- set value = "['header' => $header]" %}
-    {%- else %}
-        {%- set value = minus ? 'false' : 'true' %}
+    {%- if not value %}
+        {%- set value = 'false' %}
+    {%- elseif value == 1 %}
+        {%- set value = 'true' %}
     {%- endif %}
-        {{ "%-44s => %5s, /// %s" | format(quoted, value, comment) | raw }}
+        {{ "%-44s => " | format(quoted) | raw }} {{ value | replace({'\n': '\n        '}) | trim | raw }},
 {% endfor %}
     ))
-    ->finder(
+    ->setFinder(
         PhpCsFixer\Finder::create()
             ->in(__DIR__)
 {% for k,vs in this.goal.fixer.finder %}

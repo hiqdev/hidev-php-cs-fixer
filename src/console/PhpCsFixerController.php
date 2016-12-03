@@ -37,7 +37,7 @@ class PhpCsFixerController extends \hidev\controllers\FileController
     public function determineVersion()
     {
         $str = reset($this->exec('php-cs-fixer', ['--version']));
-        if (preg_match('/ version (\S+) /', $str, $m)) {
+        if (preg_match('/PHP CS Fixer (\S+) /', $str, $m)) {
             return $m[1];
         }
 
