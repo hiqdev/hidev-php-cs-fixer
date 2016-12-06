@@ -1,9 +1,11 @@
 hiqdev/hidev-php-cs-fixer
 -------------------------
 
-## [Under development]
+## [0.4.2] - 2016-12-06
 
 - Removed (broken) support for version 1
+    - [03a79c9] 2016-12-06 csfixed [sol@hiqdev.com]
+    - [9beb819] 2016-12-06 redone bumping to `chkipper` [sol@hiqdev.com]
 - Fixed `.php_cs` config template for version 2
     - [5db9297] 2016-12-03 fixed `.php_cs` config template for version 2 [sol@hiqdev.com]
     - [397a0e5] 2016-05-28 csfixed [sol@hiqdev.com]
@@ -158,3 +160,5 @@ hiqdev/hidev-php-cs-fixer
 [89faed3]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/89faed3
 [5db9297]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/5db9297
 [397a0e5]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/397a0e5
+[03a79c9]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/03a79c9
+[9beb819]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/9beb819

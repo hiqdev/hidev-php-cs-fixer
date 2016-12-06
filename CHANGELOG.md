@@ -1,7 +1,7 @@
 hiqdev/hidev-php-cs-fixer
 -------------------------
 
-## [Under development]
+## [0.4.2] - 2016-12-06
 
 - Removed (broken) support for version 1
 - Fixed `.php_cs` config template for version 2
