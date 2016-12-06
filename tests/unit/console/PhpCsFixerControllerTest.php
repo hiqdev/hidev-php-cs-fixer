@@ -1,6 +1,5 @@
 <?php
-
-/*
+/**
  * PHP-CS-Fixer plugin for HiDev
  *
  * @link      https://github.com/hiqdev/hidev-php-cs-fixer
