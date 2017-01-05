@@ -1,67 +1,90 @@
 hiqdev/hidev-php-cs-fixer
 -------------------------
 
+## [0.4.3] - 2017-01-05
+
+- Fixed command to run `php-cs-fixer fix` without `.` ([@hiqsol])
+
 ## [0.4.2] - 2016-12-06
 
-- Removed (broken) support for version 1
-- Fixed `.php_cs` config template for version 2
+- Removed (broken) support for version 1 ([@hiqsol])
+- Fixed `.php_cs` config template for version 2 ([@hiqsol])
 
 ## [0.4.1] - 2016-05-28
 
-- Added php-cs-fixer v2 support
+- Added php-cs-fixer v2 support ([@hiqsol])
 
 ## [0.4.0] - 2016-05-21
 
-- Changed: redone to `composer-config-plugin`
+- Changed: redone to `composer-config-plugin` ([@hiqsol])
 
 ## [0.3.4] - 2016-04-15
 
-- Fixed `hiqdev/composer-extension-plugin` version constraint
+- Fixed `hiqdev/composer-extension-plugin` version constraint ([@hiqsol])
 
 ## [0.3.3] - 2016-04-13
 
-- Fixed build with asset-plugin
-- Changed to `hidev-config` <- `extension-config`
+- Fixed build with asset-plugin ([@hiqsol])
+- Changed to `hidev-config` <- `extension-config` ([@hiqsol])
 
 ## [0.3.2] - 2016-03-30
 
-- Changed `extension-config` <- `yii2-extraconfig`
+- Changed `extension-config` <- `yii2-extraconfig` ([@hiqsol])
 
 ## [0.3.1] - 2016-01-19
 
-- Changed `php-cs-fixer` goal to not stop, added `php-cs-fixer/stop-fix`
+- Changed `php-cs-fixer` goal to not stop, added `php-cs-fixer/stop-fix` ([@hiqsol])
 
 ## [0.3.0] - 2016-01-15
 
-- Fixed tests
-- Added php-cs-fixer download link
-- Changed goals -> controllers
-- Changed PluginManager -> yii2-extraconfig plugin
+- Fixed tests ([@hiqsol])
+- Added php-cs-fixer download link ([@hiqsol])
+- Changed goals -> controllers ([@hiqsol])
+- Changed PluginManager -> yii2-extraconfig plugin ([@hiqsol])
 
 ## [0.2.0] - 2015-12-23
 
-- Fixed build
+- Fixed build ([@hiqsol])
 
 ## [0.1.1] - 2015-11-24
 
-- Added tests and Travis CI
+- Added tests and Travis CI ([@hiqsol])
 
 ## [0.1.0] - 2015-11-10
 
-- Added php-cs-fixer caching and VCS ignoring for `.php_cs.cache`
+- Added php-cs-fixer caching and VCS ignoring for `.php_cs.cache` ([@hiqsol])
 
 ## [0.0.3] - 2015-09-08
 
-- Fixed requires at .hidev/config.yml
+- Fixed requires at .hidev/config.yml ([@hiqsol])
 
 ## [0.0.2] - 2015-07-11
 
-- Changed configs: redone parent to plugins
+- Changed configs: redone parent to plugins ([@hiqsol])
 
 ## [0.0.1] - 2015-06-19
 
-- Added first version of php-cs-fixer fix
-- Added first version of `.php_cs` generation
-- Inited
+- Added first version of php-cs-fixer fix ([@hiqsol])
+- Added first version of `.php_cs` generation ([@hiqsol])
+- Inited ([@hiqsol])
 
 ## [Development started] - 2015-06-07
+
+[@hiqsol]: https://github.com/hiqsol
+[sol@hiqdev.com]: https://github.com/hiqsol
+[Under development]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.2...HEAD
+[0.4.2]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.1...0.4.2
+[0.4.1]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.0...0.4.1
+[0.4.0]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.3.4...0.4.0
+[0.3.4]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.3.3...0.3.4
+[0.3.3]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.3.2...0.3.3
+[0.3.2]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.3.1...0.3.2
+[0.3.1]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.3.0...0.3.1
+[0.3.0]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.2.0...0.3.0
+[0.2.0]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.1.1...0.2.0
+[0.1.1]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.1.0...0.1.1
+[0.1.0]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.0.3...0.1.0
+[0.0.3]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.0.2...0.0.3
+[0.0.2]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.0.1...0.0.2
+[0.0.1]: https://github.com/hiqdev/hidev-php-cs-fixer/releases/tag/0.0.1
+[0.4.3]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.2...0.4.3
