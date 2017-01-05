@@ -15,3 +15,7 @@ package:
         - writing `.php_cs` config file
         - running php-cs-fixer from proper path
 
+php-cs-fixer:
+    finder:
+        notPath:
+            - src/views

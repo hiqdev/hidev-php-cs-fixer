@@ -47,8 +47,10 @@ return PhpCsFixer\Config::create()
     ->setFinder(
         PhpCsFixer\Finder::create()
             ->in(__DIR__)
+            ->notPath('src/views')
             ->notPath('vendor')
             ->notPath('runtime')
             ->notPath('web/assets')
+            ->notPath('src/views')
         )
 ;
