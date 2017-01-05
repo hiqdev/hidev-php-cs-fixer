@@ -12,10 +12,10 @@ return [
     'components' => [
         'config' => [
             'php-cs-fixer' => [
-                'class' => 'hidev\phpcsfixer\console\PhpCsFixerController',
+                'class' => \hidev\phpcsfixer\console\PhpCsFixerController::class,
             ],
             '.php_cs' => [
-                'class' => 'hidev\phpcsfixer\console\PhpCsController',
+                'class' => \hidev\phpcsfixer\console\PhpCsController::class,
             ],
             'binaries' => [
                 'php-cs-fixer' => [
