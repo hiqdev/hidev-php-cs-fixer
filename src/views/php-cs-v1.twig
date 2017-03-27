@@ -1,16 +1,16 @@
 <?php
 
 $header = <<<EOF
-{{ include(template_from_string(this.goal.fixer.header)) -}}
+{{ include(template_from_string(handler.goal.fixer.header)) -}}
 EOF;
 
 Symfony\CS\Fixer\Contrib\HeaderCommentFixer::setHeader($header);
 
 return Symfony\CS\Config\Config::create()
     ->setUsingCache(true)
-    ->level(Symfony\CS\FixerInterface::{{ this.goal.fixer.level | upper }}_LEVEL)
+    ->level(Symfony\CS\FixerInterface::{{ handler.goal.fixer.level | upper }}_LEVEL)
     ->fixers([
-{% for k,v in this.goal.fixer.fixers %}
+{% for k,v in handler.goal.fixer.fixers %}
     {% set q = "'#{k}'," %}
     {{ "%-40s /// %s" | format(q,v) | raw }}
 {% endfor %}
@@ -18,7 +18,7 @@ return Symfony\CS\Config\Config::create()
     ->finder(
         Symfony\CS\Finder\DefaultFinder::create()
             ->in(__DIR__)
-{% for k,vs in this.goal.fixer.finder %}
+{% for k,vs in handler.goal.fixer.finder %}
     {% for v in vs %}
         {{ "->%s('%s')" | format(k,v) | raw }}
     {% endfor %}

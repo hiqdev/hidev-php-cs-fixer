@@ -1,15 +1,15 @@
 <?php
 
 $header = <<<EOF
-{{ include(template_from_string(this.goal.fixer.header)) -}}
+{{ include(template_from_string(context.goal.fixer.header)) -}}
 EOF;
 
 return PhpCsFixer\Config::create()
     ->setUsingCache(true)
     ->setRiskyAllowed(true)
     ->setRules(array(
-        '@{{ this.goal.fixer.casedLevel }}' => true,
-{% for name,value in this.goal.fixer.fixers %}
+        '@{{ context.goal.fixer.casedLevel }}' => true,
+{% for name,value in context.goal.fixer.fixers %}
     {%- set quoted = "'#{name}'" %}
     {%- if not value %}
         {%- set value = 'false' %}
@@ -22,7 +22,7 @@ return PhpCsFixer\Config::create()
     ->setFinder(
         PhpCsFixer\Finder::create()
             ->in(__DIR__)
-{% for k,vs in this.goal.fixer.finder %}
+{% for k,vs in context.goal.fixer.finder %}
     {% for v in vs %}
         {{ "->%s('%s')" | format(k,v) | raw }}
     {% endfor %}
