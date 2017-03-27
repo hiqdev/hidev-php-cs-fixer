@@ -1,6 +1,10 @@
 hiqdev/hidev-php-cs-fixer
 -------------------------
 
+## [0.4.4] - 2017-03-27
+
+- Fixed views to follow hidev API changes ([@SilverFire])
+
 ## [0.4.3] - 2017-01-05
 
 - Fixed command to run `php-cs-fixer fix` without `.` ([@hiqsol])
@@ -70,9 +74,15 @@ hiqdev/hidev-php-cs-fixer
 
 ## [Development started] - 2015-06-07
 
+[@SilverFire]: https://github.com/SilverFire
+[d.naumenko.a@gmail.com]: https://github.com/SilverFire
+[@tafid]: https://github.com/tafid
+[andreyklochok@gmail.com]: https://github.com/tafid
+[@BladeRoot]: https://github.com/BladeRoot
+[bladeroot@gmail.com]: https://github.com/BladeRoot
 [@hiqsol]: https://github.com/hiqsol
 [sol@hiqdev.com]: https://github.com/hiqsol
-[Under development]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.2...HEAD
+[Under development]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.3...HEAD
 [0.4.2]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.1...0.4.2
 [0.4.1]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.0...0.4.1
 [0.4.0]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.3.4...0.4.0
@@ -88,3 +98,4 @@ hiqdev/hidev-php-cs-fixer
 [0.0.2]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.0.1...0.0.2
 [0.0.1]: https://github.com/hiqdev/hidev-php-cs-fixer/releases/tag/0.0.1
 [0.4.3]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.2...0.4.3
+[0.4.4]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.3...0.4.4
