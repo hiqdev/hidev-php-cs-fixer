@@ -1,5 +1,9 @@
-hiqdev/hidev-php-cs-fixer
--------------------------
+# hiqdev/hidev-php-cs-fixer
+
+## [0.4.5] - 2017-03-27
+
+- Fixed renaming bug
+    - [cc11540] 2017-03-27 fixed renaming this -> handler [@SilverFire]
 
 ## [0.4.4] - 2017-03-27
 
@@ -185,7 +189,7 @@ hiqdev/hidev-php-cs-fixer
 [475ffaf]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/475ffaf
 [03d6cfb]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/03d6cfb
 [fe63c3d]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/fe63c3d
-[Under development]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.3...HEAD
+[Under development]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.4...HEAD
 [0.4.2]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.1...0.4.2
 [0.4.1]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.0...0.4.1
 [0.4.0]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.3.4...0.4.0
@@ -203,3 +207,5 @@ hiqdev/hidev-php-cs-fixer
 [0.4.3]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.2...0.4.3
 [fec8755]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/fec8755
 [0.4.4]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.3...0.4.4
+[cc11540]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/cc11540
+[0.4.5]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.4...0.4.5

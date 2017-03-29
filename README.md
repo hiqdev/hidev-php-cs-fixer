@@ -1,5 +1,4 @@
-HiDev PHP-CS-Fixer
-==================
+# HiDev PHP-CS-Fixer
 
 **PHP-CS-Fixer plugin for HiDev**
 
