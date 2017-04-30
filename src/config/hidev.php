@@ -9,26 +9,36 @@
  */
 
 return [
+    'controllerMap' => [
+        'php-cs-fixer' => [
+            'class' => \hidev\phpcsfixer\console\PhpCsFixerController::class,
+        ],
+        '.php_cs' => [
+            'class' => \hidev\phpcsfixer\console\PhpCsController::class,
+        ],
+    ],
     'components' => [
-        'config' => [
-            'php-cs-fixer' => [
-                'class' => \hidev\phpcsfixer\console\PhpCsFixerController::class,
-            ],
-            '.php_cs' => [
-                'class' => \hidev\phpcsfixer\console\PhpCsController::class,
-            ],
-            'binaries' => [
-                'php-cs-fixer' => [
-                    'package'  => 'fabpot/php-cs-fixer',
-                    'version'  => '*',
-                    'download' => 'http://get.sensiolabs.org/php-cs-fixer.phar',
+        'php-cs-fixer' => [
+            'class' => \hidev\phpcsfixer\components\PhpCsFixer::class,
+        ],
+        '.php_cs' => [
+            'class' => \hidev\phpcsfixer\components\PhpCs::class,
+        ],
+        'view' => [
+            'theme' => [
+                'pathMap' => [
+                    '@hidev/views' => ['@hidev/phpcsfixer/views'],
                 ],
             ],
-            'views' => [
-                '@hidev/phpcsfixer/views',
-            ],
-            'vcsignore' => [
-                '.php_cs.cache' => 'php-cs-fixer cache',
+        ],
+        'vcsignore' => [
+            '.php_cs.cache' => 'php-cs-fixer cache',
+        ],
+        'binaries' => [
+            'php-cs-fixer' => [
+                'package'  => 'fabpot/php-cs-fixer',
+                'version'  => '*',
+                'download' => 'http://get.sensiolabs.org/php-cs-fixer.phar',
             ],
         ],
     ],

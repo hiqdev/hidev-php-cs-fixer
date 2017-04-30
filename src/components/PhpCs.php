@@ -8,13 +8,15 @@
  * @copyright Copyright (c) 2015-2017, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\phpcsfixer\console;
+namespace hidev\phpcsfixer\components;
 
 /**
  * `.php_cs` (php-cs-fixer config) file generation.
  */
-class PhpCsController extends \hidev\base\Controller
+class PhpCs extends \hidev\components\ConfigFile
 {
+    protected $_file = '.php_cs';
+
     public function getTemplate()
     {
         $version = $this->getFixer()->getVersion();
@@ -28,8 +30,10 @@ class PhpCsController extends \hidev\base\Controller
         return $this->take('php-cs-fixer');
     }
 
-    public function actionIndex()
+    public function getCasedLevel()
     {
-        $this->take('.php_cs')->actionSave();
+        $level = strtolower($this->level);
+
+        return $level === 'symfony' ? 'Symfony' : strtoupper($level);
     }
 }

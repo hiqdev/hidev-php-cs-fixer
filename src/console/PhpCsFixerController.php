@@ -11,56 +11,18 @@
 namespace hidev\phpcsfixer\console;
 
 /**
- * Goal to run php-cs-fixer.
+ * php-cs-fixer.
  */
-class PhpCsFixerController extends \hidev\controllers\FileController
+class PhpCsFixerController extends \hidev\base\Controller
 {
     protected $_before = ['.php_cs'];
 
-    protected $_version;
-
-    public function setVersion($value)
+    public function actionIndex()
     {
-        $this->_version = $value;
+        return $this->doFix();
     }
 
-    public function getVersion()
-    {
-        if ($this->_version === null) {
-            $this->_version = $this->determineVersion();
-        }
-
-        return $this->_version;
-    }
-
-    public function determineVersion()
-    {
-        $str = reset($this->exec('php-cs-fixer', ['--version']));
-        if (preg_match('/PHP CS Fixer (\S+) /', $str, $m)) {
-            return $m[1];
-        }
-
-        return '1.x';
-    }
-
-    public function getCasedLevel()
-    {
-        $level = strtolower($this->level);
-
-        return $level === 'symfony' ? 'Symfony' : strtoupper($level);
-    }
-
-    public function actionMake()
-    {
-        return $this->runAction('fix');
-    }
-
-    public function actionFix()
-    {
-        $this->runAction('stop-fix');
-    }
-
-    public function actionStopFix()
+    public function doFix()
     {
         return $this->passthru('php-cs-fixer', ['fix']);
     }
