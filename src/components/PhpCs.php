@@ -13,7 +13,7 @@ namespace hidev\phpcsfixer\components;
 /**
  * `.php_cs` (php-cs-fixer config) file generation.
  */
-class PhpCs extends \hidev\components\ConfigFile
+class PhpCs extends \hidev\base\ConfigFile
 {
     protected $_file = '.php_cs';
 

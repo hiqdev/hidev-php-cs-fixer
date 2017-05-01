@@ -30,6 +30,6 @@ class PhpCsController extends \hidev\base\Controller
 
     public function actionIndex()
     {
-        $this->take('.php_cs')->actionSave();
+        $this->take('.php_cs')->save();
     }
 }
