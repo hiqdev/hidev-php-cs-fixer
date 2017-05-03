@@ -15,7 +15,7 @@ use hidev\phpcsfixer\console\PhpCsController;
 /**
  * Tests for PhpCsController.
  */
-class PhpCsControllerTest extends \PHPUnit_Framework_TestCase
+class PhpCsControllerTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var PhpCsController
@@ -33,6 +33,6 @@ class PhpCsControllerTest extends \PHPUnit_Framework_TestCase
 
     public function testConstructor()
     {
-        $this->assertInstanceOf('hidev\base\Controller', $this->object);
+        $this->assertInstanceOf(\hidev\base\Controller::class, $this->object);
     }
 }
