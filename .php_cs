@@ -49,6 +49,5 @@ return PhpCsFixer\Config::create()
             ->notPath('vendor')
             ->notPath('runtime')
             ->notPath('web/assets')
-            ->notPath('src/views')
         )
 ;

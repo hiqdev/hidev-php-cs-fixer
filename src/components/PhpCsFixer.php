@@ -45,5 +45,4 @@ class PhpCsFixer extends \hidev\base\Component
 
         return '1.x';
     }
-
 }
