@@ -1,6 +1,10 @@
 # hiqdev/hidev-php-cs-fixer
 
-## [0.4.5] - 2017-03-27
+## [0.6.0] - 2017-05-03
+
+- Redone to new hidev ([@hiqsol])
+
+## [0.4.5] - 2017-03-29
 
 - Fixed renaming bug ([@SilverFire])
 
@@ -85,7 +89,7 @@
 [bladeroot@gmail.com]: https://github.com/BladeRoot
 [@hiqsol]: https://github.com/hiqsol
 [sol@hiqdev.com]: https://github.com/hiqsol
-[Under development]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.4...HEAD
+[Under development]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.5...HEAD
 [0.4.2]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.1...0.4.2
 [0.4.1]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.0...0.4.1
 [0.4.0]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.3.4...0.4.0
@@ -103,3 +107,4 @@
 [0.4.3]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.2...0.4.3
 [0.4.4]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.3...0.4.4
 [0.4.5]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.4...0.4.5
+[0.6.0]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.5...0.6.0

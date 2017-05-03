@@ -1,6 +1,15 @@
 # hiqdev/hidev-php-cs-fixer
 
-## [0.4.5] - 2017-03-27
+## [0.6.0] - 2017-05-03
+
+- Redone to new hidev
+    - [bc9c94c] 2017-05-03 csfixed [@hiqsol]
+    - [3c57020] 2017-05-03 fixed tests [@hiqsol]
+    - [48e2803] 2017-05-01 moved ConfigFile to `hidev\base` [@hiqsol]
+    - [26ef177] 2017-04-30 renamed `hidev.yml` <- .hidev/config.yml [@hiqsol]
+    - [507fd8b] 2017-04-30 redoing to new hidev [@hiqsol]
+
+## [0.4.5] - 2017-03-29
 
 - Fixed renaming bug
     - [cc11540] 2017-03-27 fixed renaming this -> handler [@SilverFire]
@@ -189,7 +198,7 @@
 [475ffaf]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/475ffaf
 [03d6cfb]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/03d6cfb
 [fe63c3d]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/fe63c3d
-[Under development]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.4...HEAD
+[Under development]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.5...HEAD
 [0.4.2]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.1...0.4.2
 [0.4.1]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.0...0.4.1
 [0.4.0]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.3.4...0.4.0
@@ -209,3 +218,9 @@
 [0.4.4]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.3...0.4.4
 [cc11540]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/cc11540
 [0.4.5]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.4...0.4.5
+[bc9c94c]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/bc9c94c
+[3c57020]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/3c57020
+[48e2803]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/48e2803
+[26ef177]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/26ef177
+[507fd8b]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/507fd8b
+[0.6.0]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.5...0.6.0
