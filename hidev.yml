@@ -5,7 +5,7 @@ package:
     headline:       HiDev PHP-CS-Fixer
     keywords:       php-cs-fixer, hidev, plugin
     description:    |
-        [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
+        [HiDev] is the automation tool mixed with code generator for easier continuous development.
 
         This plugin enables [PHP-CS-Fixer] support for HiDev.
 
@@ -14,6 +14,7 @@ package:
         - writing `.php_cs` config file
         - running php-cs-fixer from proper path
 
+        [HiDev]:        https://github.com/hiqdev/hidev
         [PHP-CS-Fixer]: https://github.com/FriendsOfPHP/PHP-CS-Fixer
 
 .php_cs:

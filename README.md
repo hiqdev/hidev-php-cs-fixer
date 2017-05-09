@@ -9,7 +9,7 @@
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/hidev-php-cs-fixer.svg)](https://scrutinizer-ci.com/g/hiqdev/hidev-php-cs-fixer/)
 [![Dependency Status](https://www.versioneye.com/php/hiqdev:hidev-php-cs-fixer/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:hidev-php-cs-fixer/dev-master)
 
-[HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
+[HiDev] is the automation tool mixed with code generator for easier continuous development.
 
 This plugin enables [PHP-CS-Fixer] support for HiDev.
 
@@ -18,6 +18,7 @@ Provides:
 - writing `.php_cs` config file
 - running php-cs-fixer from proper path
 
+[HiDev]:        https://github.com/hiqdev/hidev
 [PHP-CS-Fixer]: https://github.com/FriendsOfPHP/PHP-CS-Fixer
 
 ## Installation
