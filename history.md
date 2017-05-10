@@ -1,5 +1,11 @@
 # hiqdev/hidev-php-cs-fixer
 
+## [0.6.1] - 2017-05-08
+
+- Renamed `File` <- ConfigFile
+    - [5ba0999] 2017-05-08 csfixed [@hiqsol]
+    - [7406cea] 2017-05-08 renamed `File` <- ConfigFile [@hiqsol]
+
 ## [0.6.0] - 2017-05-03
 
 - Redone to new hidev
@@ -198,7 +204,7 @@
 [475ffaf]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/475ffaf
 [03d6cfb]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/03d6cfb
 [fe63c3d]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/fe63c3d
-[Under development]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.5...HEAD
+[Under development]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.6.0...HEAD
 [0.4.2]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.1...0.4.2
 [0.4.1]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.0...0.4.1
 [0.4.0]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.3.4...0.4.0
@@ -224,3 +230,6 @@
 [26ef177]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/26ef177
 [507fd8b]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/507fd8b
 [0.6.0]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.4.5...0.6.0
+[5ba0999]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/5ba0999
+[7406cea]: https://github.com/hiqdev/hidev-php-cs-fixer/commit/7406cea
+[0.6.1]: https://github.com/hiqdev/hidev-php-cs-fixer/compare/0.6.0...0.6.1
