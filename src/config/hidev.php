@@ -32,7 +32,7 @@ return [
             ],
         ],
         'vcsignore' => [
-            '.php_cs.cache' => 'php-cs-fixer cache',
+            '.php_cs.cache' => 'dynamic files',
         ],
         'binaries' => [
             'php-cs-fixer' => [
