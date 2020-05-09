@@ -38,7 +38,7 @@ return [
             'php-cs-fixer' => [
                 'package'  => 'fabpot/php-cs-fixer',
                 'version'  => '*',
-                'download' => 'http://get.sensiolabs.org/php-cs-fixer.phar',
+                'download' => 'https://cs.symfony.com/download/php-cs-fixer-v2.phar',
             ],
         ],
     ],
