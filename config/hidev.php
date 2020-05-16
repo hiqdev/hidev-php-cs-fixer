@@ -42,7 +42,4 @@ return [
             ],
         ],
     ],
-    'aliases' => [
-        '@hidev/phpcsfixer' => dirname(__DIR__) . '/src',
-    ],
 ];
