@@ -27,7 +27,7 @@ return [
         'view' => [
             'theme' => [
                 'pathMap' => [
-                    '@hidev/views' => ['@hidev/phpcsfixer/views'],
+                    '@hidev/views' => [dirname(__DIR__) . '/src/views'],
                 ],
             ],
         ],
